@@ -3,7 +3,7 @@
     src: url(../assets/fonts/Avenir-Heavy.ttf);
 }
 body{
-    background-image: url(../assets/img/doubts_background.png);
+    background-image: url(../assets/img/background.png);
     background-repeat: no-repeat;
     background-size:cover;
     height: 100vh;
@@ -47,5 +47,13 @@ color: #FFFFFF;
     position: fixed;
     padding-left: 20px;
     width: 50%;
+}
+
+.divi{
+    bottom: 0vh;
+    position: fixed;
+    background-color: #3E0B6E;
+    height: 150px;
+    width: 100vw;
 }
 
