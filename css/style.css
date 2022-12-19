@@ -1,6 +1,6 @@
 body{
     background-image: url(../assets/img/doubts_background.png);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: contain;
     margin: 0;
 }
