@@ -1,6 +1,48 @@
-body{
-    background-image: url(../assets/img/doubts_background.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 0;
+@font-face {
+    font-family: Avenir-Heavy;
+    src: url(../assets/fonts/Avenir-Heavy.ttf);
 }
+body{
+    background-image: url(/assets/img/doubts_background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    margin: 0;
+    font-family: Avenir-Heavy;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title{    
+font-family: Avenir-Heavy;
+font-size: 34px;
+font-weight: 900;
+line-height: 40px;
+letter-spacing: 0px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+.subtitle{    
+font-family: Avenir-Heavy;
+font-size: 16px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.description{    
+    font-family: Avenir-Heavy;
+    
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;     
+    color: #FFFFFF; 
+}
+
